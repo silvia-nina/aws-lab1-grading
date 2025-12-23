@@ -28,4 +28,4 @@ jobs:
           python -m pip install --upgrade pip
           pip install pytest boto3
       - name: Run Lab Validation
-        run: python test_lab1.py
+        run: pytest
